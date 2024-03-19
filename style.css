@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flag-img-right {
+    float: right;
+    height: 100px;
+}
+
+.flag-img-right2 {
+    float: right;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.flag-img-left {
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#name {
+    display: inline-block;
+    margin-left: 480px;
+    margin-top: 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 60px;
+}
+
+#intro {
+    text-align: center;
+    margin: 50px 180px;
+}
+
+#line {
+    color: blueviolet;
+    text-align: center;
+}
+
+#heading1 {
+    /* margin-left: 650px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sub-heading {
+    display: inline-block;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.first-div {
+    margin: 100px 200px 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-div {
+    margin: 100px 80px 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-heading1 {
+    display: inline-block;
+    margin-left: 440px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.sub-heading2 {
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.img-box {
+    text-align: center;
+}
+
+.emp-name {
+    font-size: large;
+    font-weight: 800;
+}
+
+.slanted {
+    transform: skewX(-10deg);
+    opacity: 0.5;
+    font-size: medium;
+}
+
+/* Media Query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 390px) {
+    #name {
+        font-size: small;
+    }
+
+    .sub-heading {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .flag-img-right{
+        float: right;
+        height: 50px;
+    }
+
+    #name {
+        margin: 50px 150px;
+        font-size: small;
+        padding: 10px 10px;
+    }
+
+    #intro {
+        margin: 20px 80px;
+        font-weight: 500;
+    }
+
+    #line {
+        font-size: small;
+    }
+
+    .sub-heading {
+        margin-left: 180px;
+        font-size: small;
+    }
+
+    .image {
+        height: 80px;
+    }
+
+    .first-div {
+        margin: 30px 20px;
+    }
+
+    .emp-name {
+        font-size: small;
+    }
+
+    .slanted {
+        font-size: xx-small;
+    }
+
+    .flag-img-left {
+        float: left;
+        height: 50px;
+    }
+
+    .sub-heading1 {
+        margin-left: 110px;
+        font-size: .8rem;
+    }
+
+    .second-div {
+        margin: 80px 20px 0 20px;
+    }
+
+    .flag-img-right2 {
+        height: 50px;
+        float: right;
+    }
+
+    .sub-heading2 {
+        margin-left: 150px;
+        font-size: .8rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .flag-img-right {
+        height: 60px;
+    }
+
+    #name {
+        margin-left: 160px;
+    }
+
+    .sub-heading {
+        margin-left: 160px;
+        font-size: medium;
+    }
+
+    .image {
+        height: 100px;
+    }
+
+    .first-div {
+        margin: 40px 10px;
+    }
+
+    .emp-name {
+        font-size: smaller;
+    }
+
+    .slanted {
+        font-size: x-small;
+    }
+
+    .flag-img-left {
+        height: 60px;
+    }
+
+    .sub-heading1 {
+        margin-left: 80px;
+        font-size: medium;
+    }
+
+    .second-div{
+        margin: 60px 5px;
+    }
+
+    .flag-img-right2 {
+        height: 60px;
+    }
+
+    .sub-heading2 {
+        margin-left: 220px;
+        font-size: medium;
+    }
+
+    .sub-heading2 {
+        margin-left: 140px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .flag-img-right {
+        height: 80px;
+    }
+
+    #name {
+        margin-left: 110px;
+    }
+
+    .sub-heading {
+        margin-left: 250px;
+    }
+
+    .image {
+        height: 140px;
+    }
+
+    .first-div {
+        margin: 40px 10px;
+    }
+
+    .flag-img-left {
+        height: 80px;
+    }
+
+    .sub-heading1 {
+        margin-left: 130px;
+    }
+
+    .flag-img-right2 {
+        height: 80px;
+    }
+
+    .sub-heading2 {
+        margin-left: 220px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .flag-img-right {
+        height: 100px;
+    }
+
+    #name {
+        margin-left: 220px;
+    }
+
+    #intro {
+        font-size: small;
+    }
+
+    #line {
+        font-size: larger;
+    }
+
+    .sub-heading {
+        margin-left: 340px;
+        font-size: large;
+    }
+
+    .image {
+        height: 160px;
+    }
+
+    .flag-img-left {
+        height: 100px;
+    }
+
+    .sub-heading1 {
+        margin-left: 200px;
+        font-size: large;
+    }
+
+    .flag-img-right2 {
+        height: 100px;
+    }
+
+    .sub-heading2 {
+        margin-left: 330px;
+        font-size: large;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .flag-img-left {
+        height: 100px;
+    }
+
+    #name {
+        margin-left: 480px;
+    }
+
+    #intro {
+        margin: 50px 250px;
+    }
+
+    #line {
+        font-size: x-large;
+    }
+
+    .sub-heading {
+        margin-left: 560px;
+        font-size: x-large;
+    }
+
+    .image {
+        height: 180px;
+    }
+
+    .emp-name {
+        font-size: medium;
+    }
+
+    .flag-img-left {
+        height: 100px;
+    }
+
+    .sub-heading1 {
+        margin-left: 440px;
+        font-size: x-large;
+    }
+
+    .sub-heading2 {
+        margin-left: 590px;
+        font-size: x-large;
+    }
+
+    .flag-img-right2 {
+        height: 100px;
+    }
+}
